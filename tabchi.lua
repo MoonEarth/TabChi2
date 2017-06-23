@@ -476,7 +476,7 @@ function process_stats(msg)
   end
 end
 function process_links(text_)
-  if text_:match("https://t.me/joinchat/AAAAA%S+" or "https://telegram.me/joinchat/AAAAA%S+") then
+  if text_:match("https://t.me/joinchat/AAAAA%S+") then
     local matches = {
       text_:match("(https://t.me/joinchat/AAAAA%S+)")
     }
